@@ -227,7 +227,7 @@ while (true)
         jj=jj+1;
     end
 
-    REF_HEAD = rad2deg(psitrack + atan2d(e,rho));
+    REF_HEAD = rad2deg(psitrack + atan2(e,rho));
 
     %Plotting variables for heading error
     Prop_head_err(time(i)) = K_p*head_err1;
